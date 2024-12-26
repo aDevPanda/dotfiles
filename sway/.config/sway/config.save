@@ -19,9 +19,6 @@ set $term alacritty
 set $menu fuzzel
 
 
-# Font
-font pango:0xProto Nerd Font 16
-
 ###AUTO START
 exec_always autotiling --limit 2
 
@@ -170,13 +167,13 @@ input "13364:289:Keychron_Keychron_Q3" {
 
     workspace 1 output $mon1
     workspace 2 output $mon1
-    workspace 3 output $mon1
+    workspace 3 output $mon2
     workspace 4 output $mon2
     workspace 5 output $mon2
     workspace 6 output $mon2
     workspace 7 output $mon2
     workspace 8 output $mon2
-    workspace 9 output $mon2
+    workspace 9 output $mon3
     workspace 10 output $mon3
 
 #

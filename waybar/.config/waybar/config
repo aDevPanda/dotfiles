@@ -3,10 +3,11 @@
 {
 	"layer": "top",
 	"position": "top",
-	"output": "HDMI-A-2",
+//	"output": "HDMI-A-2",
 	
 	"modules-left": [
 		"sway/workspaces",
+		"sway/mode",
 		"custom/right-arrow-dark"
 	],
 	"modules-center": [

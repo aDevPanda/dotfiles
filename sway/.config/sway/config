@@ -24,6 +24,7 @@ font pango:0xProto Nerd Font 16
 
 ###AUTO START
 exec_always autotiling --limit 2
+exec_always sway-audio-idle-inhibit
 
 ### Output configuration
 #

@@ -27,6 +27,7 @@ window#waybar {
 #cpu,
 #battery,
 #disk,
+#custom-audio_idle_inhibitor,
 #tray {
 	background: #1a1a1a;
 }
@@ -48,7 +49,9 @@ window#waybar {
 	padding: 0 3px;
 }
 
-#pulseaudio {
+#pulseaudio,
+#custom-audio_idle_inhibitor
+ {
 	color: #268bd2;
 }
 #memory {
@@ -69,6 +72,7 @@ window#waybar {
 #memory,
 #cpu,
 #battery,
+#custom-audio_idle_inhibitor,
 #disk {
 	padding: 0 10px;
 }
